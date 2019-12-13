@@ -1,0 +1,225 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: url(../图片/bg.jpg);
+	height: 100%;
+	background-repeat: repeat no-repeat;
+	background-size: cover;
+	animation: bg 10s linear infinite;
+	position: relative;
+}
+
+.wukong {
+	height: 180px;
+	width: 200px;
+	position: absolute;
+	top: 60%;
+	left: 400px;
+	overflow: hidden;
+}
+
+.wukong img {
+animation:houzi 1s step-end infinite;
+}
+
+.bajie {
+	height: 180px;
+	width: 200px;
+	position: absolute;
+	top: 60%;
+	left: 600px;
+	overflow: hidden;
+}
+
+.bajie img {
+animation:bajie 1s step-end infinite;
+}
+
+
+
+.tangshen{
+	height:240px;
+	width:170px;
+	position: absolute;
+	top: 60%;
+	left: 800px;
+	overflow: hidden;
+}
+
+.tangshen img {
+animation:tangshen 1s step-end infinite;
+}
+.shashen{
+	height:200px;
+	width:210px;
+	position: absolute;
+	top: 60%;
+	left:1000px;
+	overflow: hidden;
+}
+
+.shashen img {
+animation:shashen 1s step-end infinite;
+}
+
+@keyframes bg {
+	from {
+		background-position: 0% 0;
+	}
+
+	to {
+		background-position: -200px 0;
+	}
+}
+@keyframes houzi{
+	0%{ transform:translateX(0);}
+	12.5% {
+		transform: translatex(-200px);
+	}
+
+	25% {
+		transform: translatex(-400px);
+	}
+
+	37.5% {
+		transform: translatex(-600px);
+	}
+
+	50% {
+		transform: translatex(-800px);
+	}
+
+	62.5% {
+		transform: translatex(-1000px);
+	}
+
+	75% {
+		transform: translatex(-1200px);
+	}
+
+	87.5% {
+		transform: translatex(-1400px);
+	}
+
+	100% {
+		transform: translatex(-1600px);
+	}
+
+}
+
+
+@keyframes bajie{
+	0%{ transform:translateX(0);}
+	12.5% {
+		transform: translatex(-200px);
+	}
+
+	25% {
+		transform: translatex(-400px);
+	}
+
+	37.5% {
+		transform: translatex(-600px);
+	}
+
+	50% {
+		transform: translatex(-800px);
+	}
+
+	62.5% {
+		transform: translatex(-1000px);
+	}
+
+	75% {
+		transform: translatex(-1200px);
+	}
+
+	87.5% {
+		transform: translatex(-1400px);
+	}
+
+	100% {
+		transform: translatex(-1600px);
+	}
+
+}
+
+
+@keyframes tangshen{
+	0%{ transform:translateX(0);}
+	12.5% {
+		transform: translatex(-170px);
+	}
+
+	25% {
+		transform: translatex(-340px);
+	}
+
+	37.5% {
+		transform: translatex(-510px);
+	}
+
+	50% {
+		transform: translatex(-680px);
+	}
+
+	62.5% {
+		transform: translatex(-850px);
+	}
+
+	75% {
+		transform: translatex(-1020px);
+	}
+
+	87.5% {
+		transform: translatex(-1190px);
+	}
+
+	100% {
+		transform: translatex(-1360px);
+	}
+
+}
+@keyframes shashen{
+	0%{ transform:translateX(0);}
+	12.5% {
+		transform: translatex(-210px);
+	}
+
+	25% {
+		transform: translatex(-420px);
+	}
+
+	37.5% {
+		transform: translatex(-630px);
+	}
+
+	50% {
+		transform: translatex(-840px);
+	}
+
+	62.5% {
+		transform: translatex(-1050px);
+	}
+
+	75% {
+		transform: translatex(-1260px);
+	}
+
+	87.5% {
+		transform: translatex(-1470px);
+	}
+
+	100% {
+		transform: translatex(-1680px);
+	}
+
+}
